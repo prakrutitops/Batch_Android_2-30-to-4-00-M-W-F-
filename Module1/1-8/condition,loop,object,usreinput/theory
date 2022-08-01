@@ -1,0 +1,57 @@
+public=>Access Modifier/Visibility Modifier
+static=>Keywords
+void =>Return type which returns null value
+main=>method name
+
+Access Modifier:
+Public
+Private
+Protected
+
+Static->Fixed
+
+=>Every program's execution is starts with main method
+
+Conditional statement:
+
+if
+else 
+else if ladder
+nested if
+switch,case,break
+
+Looping statement:
+for
+while
+do while
+
+for(initialization;condition;incre/decre)
+{
+	statement
+}
+
+Object :Any Entity which has own state and behaviour that is called an object
+Syntax:
+Classname objname =new classname();
+
+
+
+Xyz
+
+Xyz x1 = new Xyz();
+
+
+USerInput
+
+Constructor:when method having a same name as a classname
+
+method-must have a return type
+constructor-does not have a return type
+types of constructor
+1)default
+2)parameterized
+
+
+
+
+
