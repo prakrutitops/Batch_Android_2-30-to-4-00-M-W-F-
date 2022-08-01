@@ -1,0 +1,53 @@
+1. Display This Information using printf
+a. Your Name
+b. Your Birth date
+c. Your Age
+d. Your Address
+
+2. Write a program to make addition, Subtraction, Multiplication and Division of
+Two Numbers.
+
+3. Write a program to make a square and cube of number.
+
+4. Write a program to find the Area of Circle
+
+5. Write a program to find the Area of Triangle
+
+6. Write a program to find the simple Interest.
+
+7. Write a program to convert temperature from degree centigrade to
+Fahrenheit.
+
+8. Write a program to calculate sum of 5 subjects & find the percentage.
+Subject marks entered by user.
+
+9. Write a Program to show swap of two No's without using third variable.
+
+10. Write a Program to check the given number is Positive, Negative.
+
+11. Write a Program to check the given year is leap year or not.
+
+12. Write a Program to check the given number is prime or not prime.
+
+13. Write a program to find the Max number from the given three number
+using Nested If
+
+14. Write a program to find the Max number from the given three number
+using Ternary Operator
+
+15. Write a program user enter the 5 subjects mark. You have to make a total
+and find the percentage.
+percentage > 75 you have to print “Distinction”
+percentage > 60 and percentage <= 75 you have to print “First class”
+percentage >50 and percentage <= 60 you have to print “Second class”
+percentage > 35 and percentage <= 50 you have to print “Pass class”
+Otherwise print “Fail”
+
+17. Write Program use switch statement. Display Monday to Sunday
+
+18. Write a Program of Addition, Subtraction ,Multiplication and Division using
+Switch case.(Must Be Menu Driven)
+
+19. Write a program of to find out the Area of Triangle, Rectangle and Circle
+using If Condition.(Must Be Menu Driven)
+
