@@ -1,0 +1,50 @@
+1)this=>refrence keyword
+
+2)static
+1)Variable
+2)Method
+3)Block
+
+3)super=>Call Parent class Value
+
+4)final=>
+variable
+method
+class
+
+inheritance:when one object acquire all the properties 
+and behaviour of parent class
+
+types of inheritance
+1)Single
+2)Multilevel
+3)Multiple - is not supported in java
+4)Hierarchical
+5)Hybrid
+
+
+parent-child
+super-sub
+base-derived
+
+
+
+Mutiple Inheritance solution is interface
+
+interface:Collection of abstract methods
+
+
+void a()
+{
+	//body part
+}
+
+void a();
+
+
+
+
+ 
+
+
+
