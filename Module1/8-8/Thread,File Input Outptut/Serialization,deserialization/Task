@@ -1,0 +1,30 @@
+B27. W.A.J. P to demonstrate multiple catch blocks, (one is to handle divide by zero exception and
+another one is to handle ArrayIndexOutOfBoundException) int a [] =new int [5]; a [5] =30/0;
+
+I1. W.A.J.P to read 10 integer values using Scanner class from keyboard. Generate the exception if
+the entered value is less than 10 and or greater than 40. Program should display appropriate message
+as and when this exception occurs otherwise it will display all the entered values.
+
+I2. W.A.J.P to create the validate method that takes integer value as a parameter. If the age is less
+than 18, then throw an ArithmeticException otherwise print a message welcome to vote.
+O/P- Enter your age :16
+Exception in thread main java. lang. ArithmeticException: not valid
+
+A1. W.A.J.P to create a custom exception if Customer withdraw amount which is greater than account
+balance then program will show custom exception otherwise amount will deduct from account balance.
+Account balance is:2000
+Enter withdraw amount:2500
+Sorry, insufficient balance, you need more 500 Rs.
+To perform this transaction.
+
+
+A2. W.A.J.P to create a class Student with attributes roll no, name, age and course. Initialize values
+through parameterized constructor. If age of student is not in between 15 and 21 then generate
+userdefined exception ‘AgeNotWithinRangeException’. If name contains numbers or special symbols
+raise exception ‘NameNotValidException’. Define the two exception classes.
+
+B5.W.A.J.P to call run() method directly without calling start() method for 2 threads.
+TestCallRun2 t1=new TestCallRun2();
+TestCallRun2 t2=new TestCallRun2();
+t1.run(); t2.run();
+
