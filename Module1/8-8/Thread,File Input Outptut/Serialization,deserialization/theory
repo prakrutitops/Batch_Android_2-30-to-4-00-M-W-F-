@@ -1,0 +1,42 @@
+Exception Handling=>
+Errors
+
+Keywords
+1.Try
+2.Catch
+3.Throw
+4.Throws
+5.Finally
+
+File Management
+File Input Output
+
+FileOutputStream
+FileInputStream
+
+Serialization-Byte format
+Deserialization-Original format
+Interface-Serializable
+
+Thread:Handle the process
+
+2 ways to use thread
+class-Thread
+interface-Runnable
+
+Thread LifeCycle
+1)Init
+2)Start
+3)Run
+4)Stop
+5)Destroy
+
+Synchronized
+
+
+
+
+
+
+
+
