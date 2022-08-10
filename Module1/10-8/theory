@@ -1,0 +1,24 @@
+Collection:Packages+classes+interfaces+methods
+
+Collection Framework:
+
+Interface:
+List
+Set
+Map
+
+Class:
+ArrayList=>add,addAll,remove,removeAll,retainAll
+LinkedList=>Singly LinkedList,Doubly LinkedList
+Vector=>Size,Capacity
+Stack=>Push,Pop
+HashMap=>Put,Get
+Set=>Hashset
+
+Generic Generator=>
+Generics Method=>
+
+
+
+
+
