@@ -1,0 +1,209 @@
+String:
+
+1.String Literal;
+
+String s="welcome";  
+
+2.By new keyword
+
+String s=new String("Welcome");
+
+java string example:
+
+public class StringExample
+{  
+public static void main(String args[])
+{  
+String s1="java";//creating string by java string literal  
+char ch[]={'s','t','r','i','n','g','s'};  
+String s2=new String(ch);//converting char array to string  
+String s3=new String("example");//creating java string by new keyword  
+
+
+
+System.out.println(s1);  
+System.out.println(s2);  
+System.out.println(s3);  
+}}  
+
+mutable:can change
+imutable:can not change
+
+class Testimmutablestring
+{  
+ public static void main(String args[]){  
+   String s="Sachin";  
+   s.concat(" Tendulkar");//concat() method appends the string at the end  
+   System.out.println(s);//will print Sachin because strings are immutable objects  
+ }  
+}  
+
+sting compare;
+
+class Teststringcomparison1{  
+ public static void main(String args[]){  
+   String s1="Sachin";  
+   String s2="Sachin";  
+   String s3=new String("Sachin");  
+   String s4="Saurav";  
+   System.out.println(s1.equals(s2));//true  
+   System.out.println(s1.equals(s3));//true  
+   System.out.println(s1.equals(s4));//false  
+ }  
+}  
+
+
+
+class Teststringcomparison2{  
+ public static void main(String args[]){  
+   String s1="Sachin";  
+   String s2="SACHIN";  
+  
+   System.out.println(s1.equals(s2));//false  
+   System.out.println(s1.equalsIgnoreCase(s2));//true  
+ }  
+}  
+
+
+
+class Teststringcomparison3{  
+ public static void main(String args[]){  
+   String s1="Sachin";  
+   String s2="Sachin";  
+   String s3=new String("Sachin");  
+   System.out.println(s1==s2);//true (because both refer to same instance)  
+   System.out.println(s1==s3);//false(because s3 refers to instance created in nonpool)  
+ }  
+}  
+=
+==
+
+String compare by compareTo() method:
+
+
+class Teststringcomparison4{  
+ public static void main(String args[]){  
+   String s1="Sachin";  
+   String s2="Sachin";  
+   String s3="Ratan";  
+   System.out.println(s1.compareTo(s2));//0  
+   System.out.println(s1.compareTo(s3));//1(because s1>s3)  
+   System.out.println(s3.compareTo(s1));//-1(because s3 < s1 )  
+ }  
+}  
+
+
+string concat:
+
+class TestStringConcatenation1{  
+ public static void main(String args[]){  
+   String s="Sachin"+" Tendulkar";  
+   System.out.println(s);//Sachin Tendulkar  
+ }  
+}  
+
+String Concatenation by concat() method;
+
+class TestStringConcatenation3{  
+ public static void main(String args[]){  
+   String s1="Sachin ";  
+   String s2="Tendulkar";  
+   String s3=s1.concat(s2);  
+   System.out.println(s3);//Sachin Tendulkar  
+  }  
+}  
+
+upper case-lower case
+
+String s="Sachin";  
+System.out.println(s.toUpperCase());//SACHIN  
+System.out.println(s.toLowerCase());//sachin  
+System.out.println(s);//Sachin(no change in original)  
+
+
+trim:
+
+String s="  Sachin  ";  
+System.out.println(s);//  Sachin    
+System.out.println(s.trim());//Sachin  
+
+start with,end with:
+
+String s="Sachin";  
+ System.out.println(s.startsWith("Sa"));//true  
+ System.out.println(s.endsWith("n"));//true  
+
+charAt();
+
+String s="Sachin";  
+System.out.println(s.charAt(0));//S  
+System.out.println(s.charAt(3));//h  
+
+replace:
+
+String s1="Java is a programming language. Java is a platform. Java is an Island.";    
+String replaceString=s1.replace("Java","Kava");//replaces all occurrences of "Java" to "Kava"    
+System.out.println(replaceString);    
+
+
+Java StringBuffer class
+
+Java StringBuffer class is used to create mutable (modifiable) string. 
+
+The StringBuffer class in java is same as String class except it is mutable i.e. it can be changed.
+
+1) StringBuffer append() method
+The append() method concatenates the given argument with this string.
+
+class StringBufferExample{  
+public static void main(String args[]){  
+StringBuffer sb=new StringBuffer("Hello ");  
+sb.append("Java");//now original string is changed  
+System.out.println(sb);//prints Hello Java  
+}  
+}  
+2) StringBuffer insert() method
+The insert() method inserts the given string with this string at the given position.
+
+class StringBufferExample2{  
+public static void main(String args[]){  
+StringBuffer sb=new StringBuffer("Hello ");  
+sb.insert(1,"Java");//now original string is changed  
+System.out.println(sb);//prints HJavaello  
+}  
+}  
+
+3) StringBuffer replace() method
+The replace() method replaces the given string from the specified beginIndex and endIndex.
+
+class StringBufferExample3{  
+public static void main(String args[]){  
+StringBuffer sb=new StringBuffer("Hello");  
+sb.replace(1,3,"Java");  
+System.out.println(sb);//prints HJavalo  
+}  
+}  
+HJavalo
+4) StringBuffer delete() method
+The delete() method of StringBuffer class deletes the string from the specified beginIndex to endIndex.
+
+class StringBufferExample4{  
+public static void main(String args[]){  
+StringBuffer sb=new StringBuffer("Hello");  
+sb.delete(1,3);  
+System.out.println(sb);//prints Hlo  
+}  
+}  
+Hlo
+5) StringBuffer reverse() method
+The reverse() method of StringBuilder class reverses the current string.
+
+class StringBufferExample5{  
+public static void main(String args[]){  
+StringBuffer sb=new StringBuffer("Hello");  
+sb.reverse();  
+System.out.println(sb);//prints olleH  
+}  
+}  
+
+
