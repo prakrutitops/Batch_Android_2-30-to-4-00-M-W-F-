@@ -1,0 +1,21 @@
+functions
+
+predefined
+
+
+user defined
+1)with para with return
+2)with para without return
+3)wihtout para without return
+4)without para with return
+
+array:collection of items that is called array
+
+
+?.
+!!
+
+FileOutputStream fout =new FileOutputStream("E://a.txt").use("E://b.txt");
+
+Primary Constructor=>
+Secondary Constructor
