@@ -1,0 +1,72 @@
+1)app
+1)manifest
+AndroidManifest.xml=>Launching
+
+2)java
+1=>Kotlin files
+2=>Test
+3=>Test
+
+3)res
+drawable=>Images
+layout=>XML FILE=>Designing
+mipmap=>Inbuilt Images
+values=>Color,String,theme
+
+
+2)gradle scripts=>Library
+build.gradle->project
+build.gradle->module->Library
+gradle.properties->version
+proguard.properties->Security[when you will publish app on playstore]
+gradle.properties->No Change
+setting.gradle->Library
+local.properties->SDK Location
+
+SDK=>Software Development Kit
+AVD=>Android Virtual Device
+
+===================================
+Designing=>XML
+Coding=>Kotlin
+==================================
+
+Intent:Switching from one activity to another activity
+
+Types of Intent
+1)Explicit:Switching from one activity to another activity in same app
+2)Implicit:Switching from one activity to another activity between Diffrent app
+
+
+Task:
+
+	Screen 1:
+
+
+			Welcome to Asia Cup=>Button=>Center
+
+			Click=> Open Screen 2:[Explicit Intent]
+
+
+	Screen 2:
+	Cricket Tournament=>TextView
+	
+	[4 team]
+	Indian Team Symbol=>Imageview =>Highest Score[Toast Message]
+	India=>TextView=>Indian Cricket [Implicit Intent]->Link
+
+	
+	toleftof
+	torightof
+	marginleft
+	margintright
+	margintop
+	marginbottom
+
+
+
+
+
+
+
+
