@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ankit"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"
+        android:textColor="#FF5722"
+       />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harsh"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:layout_below="@+id/t1"
+            android:textStyle="bold|italic"
+            android:textColor="#FF9800"
+            />
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dhyey"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textStyle="bold|italic"
+            android:textColor="#FF5722"
+            android:layout_below="@+id/t2"/>
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Het"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textStyle="bold|italic"
+            android:textColor="#FF9800"
+            android:layout_below="@+id/t3"/>
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/icon"
+            android:layout_below="@+id/t4"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_below="@+id/img"/>
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/icon"
+        android:layout_below="@+id/btn1"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@+id/img2"/>
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/btn2"
+        android:src="@drawable/icon" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img3"
+        android:text="Submit2" />
+
+
+</RelativeLayout>
+</ScrollView>
