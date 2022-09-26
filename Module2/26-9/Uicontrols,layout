@@ -1,0 +1,12 @@
+Layouts:
+RelativeLayout
+LinearLayout->horizontal,vertical
+TableLayout
+GridLayout
+FrameLayout-fragment:Multiple screens on one activity
+Custom Layout-
+
+
+Constraint Layout
+Coordinator Layout
+Appbar Layout
