@@ -1,1 +1,24 @@
 Lottie files
+
+Task:
+
+Signup
+
+FirstName-Edittext
+LastName-Edittext
+Email-Edittext
+Mobile-Edittext
+Gender-RadioButton
+Hobbies-Checkbox
+Password-Edittext
+Confirm Password-Edittext
+Signup-Button
+Do you want to Login?-Text
+
+
+Login
+
+Mobile-Edittext
+Pass-Edittext
+Login-Button
+Do You want to Signup?-Text
