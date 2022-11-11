@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_android">
+
+    <fragment
+        android:id="@+id/nav_android"
+        android:name="com.example.gmailapp.ui.Android.AndroidFragment"
+        android:label="@string/menu_andorid"
+        tools:layout="@layout/fragment_android" />
+
+    <fragment
+        android:id="@+id/nav_java"
+        android:name="com.example.gmailapp.ui.Java.JavaFragment"
+        android:label="@string/menu_java"
+        tools:layout="@layout/fragment_java" />
+
+    <fragment
+        android:id="@+id/nav_php"
+        android:name="com.example.gmailapp.ui.Php.PhpFragment"
+        android:label="@string/menu_php"
+        tools:layout="@layout/fragment_php" />
+
+    <fragment
+        android:id="@+id/nav_graphics"
+        android:name="com.example.gmailapp.ui.Gd.GraphicsFragment"
+        android:label="@string/menu_graphics"
+        tools:layout="@layout/fragment_graphics" />
+</navigation>
