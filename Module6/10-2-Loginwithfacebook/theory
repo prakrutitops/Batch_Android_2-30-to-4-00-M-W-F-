@@ -1,0 +1,7 @@
+keytool -exportcert -alias androiddebugkey -keystore C:\Users\Tops\.android\debug.keystore |C:\openssl-0.9.8k_X64\openssl-0.9.8k_X64\openssl-0.9.8k_X64\bin\openssl sha1 -binary | C:\openssl-0.9.8k_X64\openssl-0.9.8k_X64\openssl-0.9.8k_X64\bin\openssl base64
+
+
+keytool -exportcert -alias androiddebugkey -keystore (Your keystore path)\debug.keystore | (Your
+OpenSSL path)\openssl sha1 -binary | (Your OpenSSL path)\openssl base64
+
+6N7XgQHpYc/nJGw9NVczyZNU3/w=
